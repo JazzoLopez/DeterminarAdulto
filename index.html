@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body align="center">
+    <fieldset>
+      <h2>Aplicación que determina si eres adulto o no.</h2>
+      <br />
+      <img src="assets/signo-de-interrogacion.png" id="imagen" />
+    </fieldset>
+    <fieldset>
+      <p>Introduce tu fecha de nacimiento</p>
+      <br />Día: <input type="number" name="Dia" id="dia" min="1" max="31" />
+      <br />Mes: <input type="number" name="Dia" id="mes" min="1" max="12" />
+      <br />Año:
+      <input type="number" name="Dia" id="año" min="1900" max="2023" />
+      <br />
+      <p id="resultado"></p>
+      <button onclick="ver()"
+      >Enviar</button>
+  
+      <script src="codigo.js"></script>
+    </fieldset>
+  </body>
+</html>

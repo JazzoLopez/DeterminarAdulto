@@ -1,0 +1,23 @@
+*{
+    margin: .5rem;
+    padding:.5rem;
+}
+body{
+    letter-spacing: 1px;
+    font-family: sans-serif;
+}
+img{
+    height: 100px;
+    width: 100px;
+}
+button{
+    height: 40px;
+    width: 100px;
+    background-color:#d9face;
+    text-decoration: none;
+    border: none;
+}
+button:hover{
+    background-color:#353535;
+    color:white;
+}
